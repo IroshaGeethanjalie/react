@@ -66,8 +66,17 @@ import Bodycode from './Components/Bodyofcode/Bodycode'
 function App() {
   return (
     <>
-      <h1>hello geethanjalie</h1>
-      <Bodycode/>
+      <div id="wrapper">
+        <div id="navcontent">
+          <h3>Header content</h3>
+        </div>
+        <div id="bodycontent">
+          <p>Main side content</p>
+        </div>
+        <div id="fottercontent">
+          <p>footer content</p>
+        </div>
+      </div>
    
     </>
   )
