@@ -61,21 +61,19 @@ import './App.css'
 
 // export default App
 import React from 'react'
-import Bodycode from './Components/Bodyofcode/Bodycode'
+import HeaderContent from './Components/HeaderContent/HeaderContent'
+import BodyContent from './Components/BodyContent/BodyContent'
+import Footercontent from './Components/FooterContent/Footercontent'
 
 function App() {
   return (
     <>
       <div id="wrapper">
-        <div id="navcontent">
-          <h3>Header content</h3>
-        </div>
-        <div id="bodycontent">
-          <p>Main side content</p>
-        </div>
-        <div id="fottercontent">
-          <p>footer content</p>
-        </div>
+       
+        <HeaderContent/>
+        <BodyContent/>
+        <Footercontent/>
+        
       </div>
    
     </>

@@ -75,19 +75,3 @@ box-sizing: border-box;
 font-family: 'Courier New', Courier, monospace;
 text-align: center;
 }
-
-#navcontent{
-
-  min-height: 20vh;
-  background-color: rgb(124, 124, 218);
-}
-
-#bodycontent{
-  min-height: 60vh;
-  background-color: rgb(168, 152, 182);
-}
-
-#fottercontent{
-  min-height: 20vh;
-  background-color: rgb(25, 120, 151);
-}

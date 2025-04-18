@@ -1,9 +1,10 @@
 import React from 'react'
+import './HeaderContent.css'
 
 function HeaderContent() {
   return (
-    <div>
-      
+    <div id="navcontent">
+        <h3>Header content</h3>
     </div>
   )
 }
